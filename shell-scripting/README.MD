@@ -1,4 +1,4 @@
-###shell-scripting
+# shell-scripting
 ###Learning shell and GIT
 
 #steps to clone Repo
