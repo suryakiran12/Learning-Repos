@@ -1,7 +1,7 @@
 # shell-scripting and GIT
 
-* git clone <URL>                    --> clone the code
-* git add <file-name>                --> to add files to staging area
+* git clone URL                      --> clone the code
+* git add FILE-NAME                  --> to add files to staging area
 * git commit -m "meaningful message" --> commit to local repo
 * git push origin master             --> push changes to central repo
 
@@ -47,5 +47,5 @@ Add below in config file
 1. git init (Run this command inside the folder)
 2. create repo in github server
 3. connect git local repo and central repo through
-      * git remote add orign <make-sure-you-use-ssh-url>
+      * git remote add orign [make-sure-you-use-ssh-url]
       * git remote add origin git@github.com:suryakiran12/Learning-Repos.git
