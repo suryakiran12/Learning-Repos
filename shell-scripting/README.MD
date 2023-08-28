@@ -1,3 +1,9 @@
+# Softwares to Install 
+   * VS CODE
+   * GIT BASH
+   
+![alt text](shell-env.jpg)
+
 # shell-scripting and GIT
 
 * git clone URL                      --> clone the code
