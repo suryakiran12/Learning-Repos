@@ -49,3 +49,29 @@ Add below in config file
 3. connect git local repo and central repo through
       * git remote add orign [make-sure-you-use-ssh-url]
       * git remote add origin git@github.com:suryakiran12/Learning-Repos.git
+
+# changing https based URL in config to ssh based URL
+
+```
+blr-mph40:Learning-Repos skiran$ pwd
+/Users/skiran/Movies/Learning_Materials/Devops/Repos/Learning-Repos
+
+
+blr-mph40:Learning-Repos skiran$ cat .git/config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/suryakiran12/Learning-Repos.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+
+blr-mph40:Learning-Repos skiran$git remote set-url origin git@github.com:suryakiran12/Learning-Repos.git
+
+```
