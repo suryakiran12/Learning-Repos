@@ -23,7 +23,7 @@
 # SSH Authentication
 
 1. Add publickey in github account(under SSH and GPG keys)
-2. create a file called config in .ssh folder inside user directory
+2. create a file called config in .ssh folder
   
 Add below in config file
 
@@ -39,5 +39,5 @@ Add below in config file
    HostName github.com
    User git
    IdentityFile ~/.ssh/Internal/<private-key-file-name>
-   
+
    ```
