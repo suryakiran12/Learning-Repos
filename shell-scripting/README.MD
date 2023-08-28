@@ -1,5 +1,9 @@
-# shell-scripting
-###Learning shell and GIT
+# shell-scripting and GIT
+
+* git clone <URL>                    --> clone the code
+* git add <file-name>                --> to add files to staging area
+* git commit -m "meaningful message" --> commit to local repo
+* git push origin master             --> push changes to central repo
 
 #steps to clone Repo
 #git clone https://github.com/suryakiran12/Learning-Repos.git
