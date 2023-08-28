@@ -41,3 +41,11 @@ Add below in config file
    IdentityFile ~/.ssh/Internal/<private-key-file-name>
 
    ```
+
+# If you have existing folder, how can you push to GitHub?
+
+1. git init (Run this command inside the folder)
+2. create repo in github server
+3. connect git local repo and central repo through
+      * git remote add orign <make-sure-you-use-ssh-url>
+      * git remote add origin git@github.com:suryakiran12/Learning-Repos.git
