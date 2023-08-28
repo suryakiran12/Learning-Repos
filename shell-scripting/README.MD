@@ -19,3 +19,25 @@
 * git push -u origin master
    * Git push prompts for username and password
    * give username and password to push the changes to master
+
+# SSH Authentication
+
+1. Add publickey in github account(under SSH and GPG keys)
+2. create a file called config in .ssh folder inside user directory
+  
+Add below in config file
+
+   ```
+   # This is for Personal Account
+   Host github.com-Personal
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/Internal/<private-key-file-name>
+
+   #This is for work Account
+   Host github.com-Work
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/Internal/<private-key-file-name>
+   
+   ```
