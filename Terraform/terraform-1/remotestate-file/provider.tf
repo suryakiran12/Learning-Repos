@@ -6,7 +6,10 @@ terraform {
       version = "5.16.0"
     }
   }
-
+  #create a s3 bucket named test-bucket-surya
+  #create a table in dynamodb with name test-bucket-surya-lock
+  #while creating table in dynamodb give partitionkey as LockID and
+  #type as string
   backend "s3" {
     bucket   = "test-bucket-surya"
     key = "foreach-demo"
