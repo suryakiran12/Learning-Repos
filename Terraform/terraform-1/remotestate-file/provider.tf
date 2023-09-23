@@ -8,10 +8,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket   = "roboshop-remote-state123"
+    bucket   = "test-bucket-surya"
     key = "foreach-demo"
     region = "us-east-1"
-    dynamodb_table = "roboshop-locking123"
+    dynamodb_table = "test-bucket-surya-lock"
   }
 
 }
