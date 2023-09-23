@@ -8,12 +8,12 @@ terraform {
   }
 
   backend "s3" {
-    bucket   = "roboshop-remote-state"
+    bucket   = "roboshop-remote-state123"
     key = "foreach-demo"
     region = "us-east-1"
-    dynamodb_table = "roboshop-locking"
+    dynamodb_table = "roboshop-locking123"
   }
-  
+
 }
 
 provider "aws" {
